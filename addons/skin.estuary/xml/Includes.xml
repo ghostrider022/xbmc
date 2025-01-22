@@ -1486,7 +1486,7 @@
 		<param name="height">120%</param>
 		<param name="flipx">false</param>
 		<definition>
-			<control type="image">
+			<!--<control type="image">
 				<texture flipx="$PARAM[flipx]" colordiffuse="EDFFFFFF">lists/panel.png</texture>
 				<bordertexture border="21" infill="false">overlays/shadow.png</bordertexture>
 				<bordersize>20</bordersize>
@@ -1495,7 +1495,7 @@
 				<right>$PARAM[right]</right>
 				<top>$PARAM[top]</top>
 				<height>$PARAM[height]</height>
-			</control>
+			</control>-->
 		</definition>
 	</include>
 	<include name="TouchButtons">
